@@ -1,0 +1,261 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: url(/images/breno-machado-in9-n0JwgZ0-unsplash.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+article {
+  margin: 50px 60px 0px 0px;
+  padding: 30px 30px;
+  border-radius: 10px;
+  background-color: rgba(162, 136, 227, 0.5);
+  backdrop-filter: blur(20px);
+  z-index: 750;
+  font-size: 20px;
+  line-height: 25px;
+}
+article h2{
+  font-size: 38px;
+}
+article p{
+  font-size: 18px;
+  line-height: 25px;
+  padding: 10px 20px;
+}
+
+footer {
+  background-color: rgba(66, 75, 84, 0.75);
+  backdrop-filter: blur(20px);
+  bottom: 0px;
+  width: 100%;
+  padding: 0px 0px 10px 0px;
+  margin-top: 20px;
+}
+footer ul li a{
+  background-color: #ee7674;
+  padding: 10px;
+  border-radius: 10px;
+  color:#424b54
+}
+footer ul li a img {
+  margin-top: 10px;
+}
+.NoSpaces {
+  position: fixed;
+}
+
+nav {
+  background-color: #424b54;
+  backdrop-filter: blur(20px);
+  height: 80px;
+  width: 100%;
+}
+nav ul {
+  float: right;
+  margin-right: 40px;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+nav ul li a {
+  font-size: 20px;
+  color: #f5fbef;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+
+.logo {
+  color: #f5fbef;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 80px;
+  margin-left: 30px;
+  margin-top: 20px;
+  padding: 10px 30px;
+  float: center;
+}
+
+.IceCreamSandwich {
+  float: right;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-right: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+a.active {
+  background-color: #ee7674;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+main.home div {
+  display: inline-block;
+}
+
+.MAIN {
+  width: 100%;
+}
+
+img.pic {
+  width: 100%;
+  margin: 30px 30px 30px 30px;
+}
+
+.collapsible {
+  background-color: #f5fbef;
+  color: #394048;
+  cursor: pointer;
+  padding: 18px;
+  width: 90%;
+  margin: 0 auto;
+  border:none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  
+}
+.content {
+  border-radius: 10px;
+  background-color: #f5fbef;
+  color:black;
+  margin:10px;
+  padding: 10px;
+}
+
+.EntryHeader {
+  Background-color: rgba(66, 75, 84, 0.7);
+  color: white;
+  padding: 0px;
+  margin: 30px 30px 0px 30px;
+  border-radius:10px;
+  overflow: hidden;
+  backdrop-filter: blur(2px);
+}
+
+div.EntryHeader h2 {
+  padding: 10px;
+  Background-color: #ee7674;
+  color: white;
+  border-radius:25px;
+  width:fit-content;
+  margin-left: 30px;
+}
+div.EntryHeader article p {
+  padding: 10px 20px 10px 20px;
+  font-size: 18px;
+  margin: 0px;
+}
+
+div.PortfolioItem {
+  margin: 40px;
+  background-color: rgba(66, 75, 84, 0.4);
+  backdrop-filter: blur(15px);
+  padding: 0px;
+  height: 425px;
+  border-radius:10px;
+}
+
+.ItemContent1 {
+  display: inline-block;
+}
+article.ItemContent1 {
+  float:right;
+  width:55%;
+  margin: 10px;
+}
+img.ItemContent1{
+  float:left;
+  width:40%;
+  border-radius:10px;
+  margin: 5px;
+}
+
+.ItemContent2{
+  display: inline-block;
+}
+article.ItemContent2{
+  float:left;
+  width:55%;
+  margin: 10px;
+}
+img.ItemContent2{
+  float: right;
+  width: 40%;
+  border-radius:10px;
+  margin: 5px;
+}
+
+#logo {
+  width: 40px;
+  margin-left: 20px;
+  margin-top: 0px;
+  float: left;
+}
+
+#check {
+  display: none;
+}
+
+#blurb {
+  float: right;
+  width: 45%;
+  backdrop-filter: initial;
+  background-color:rgb(193, 182, 219);
+}
+
+#ProfilePic {
+  width: 35%;
+  float: left;
+  margin: 70px 0px 0px 70px;
+  border-radius: 700px;
+  overflow: hidden;
+}
+
+#gomezRef {
+  height: 250px;
+  position: relative;
+  word-wrap: inherit;
+  float: left;
+  margin:0px 10px 10px 0px;
+}
+
+@media (max-width: 1085px) {
+  .IceCreamSandwich {
+    display: block;
+  }
+
+  nav ul {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(162, 136, 227, 0.5);
+    height: 100vh;
+    text-align: center;
+    top: 85px;
+    left: -120%;
+    backdrop-filter: blur(100px);
+    transition: all 1s;
+    z-index: 200;
+  }
+
+  nav ul li {
+    display: block;
+    padding: 30px 0;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  main.home div {
+    display: block;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
