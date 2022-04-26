@@ -167,12 +167,12 @@ div.PortfolioItem {
 }
 article.ItemContent1 {
   float:right;
-  width:55%;
+  width:50%;
   margin: 10px;
 }
 img.ItemContent1{
   float:left;
-  width:40%;
+  width:35%;
   border-radius:10px;
   margin: 5px;
 }
@@ -182,12 +182,12 @@ img.ItemContent1{
 }
 article.ItemContent2{
   float:left;
-  width:55%;
+  width:50%;
   margin: 10px;
 }
 img.ItemContent2{
   float: right;
-  width: 40%;
+  width: 35%;
   border-radius:10px;
   margin: 5px;
 }
